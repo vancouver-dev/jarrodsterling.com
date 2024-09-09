@@ -6,14 +6,6 @@ import { Navbar } from './components/nav'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from "./components/footer"
-import { Lora } from "next/font/google"
-
-const lora = Lora({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-roboto",
-  weight: ["400"],
-})
 
 export const metadata: Metadata = {
   title: {
@@ -53,14 +45,12 @@ export default function RootLayout({
     <html
       lang="en"
       className={cx(
-        "text-black bg-white dark:text-white dark:bg-black tracking-wide",
+        "text-black bg-white dark:text-white dark:bg-black tracking-normal",
         GeistSans.variable,
         GeistMono.variable
       )}
     >
-      <body
-        className={`mx-auto ${lora.className} antialiased max-w-xl mx-8 mt-8`}
-      >
+      <body className={`mx-auto antialiased max-w-xl mt-8`}>
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-8 md:px-0">
           <Navbar />
           {children}
