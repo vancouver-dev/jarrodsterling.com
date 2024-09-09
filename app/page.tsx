@@ -29,10 +29,17 @@ export default function Page() {
         </a>
         {`.`}
         <br />
-        {`Client projects include TikTok, McDonalds, Pepsi & Spotify.`}
+        {`Client highlights include TikTok, McDonalds, Pepsi & Spotify.`}
         <br />
         <br />
-        {`In my spare time you'll catch me exploring on my bike, swimming at my  `}
+        {`In my spare time you'll catch me exploring `}
+        <a
+          href="https://www.destinationvancouver.com/vancouver/neighbourhoods/west-end/"
+          target="_blank"
+        >
+          Vancouver
+        </a>
+        {` on my bike, swimming at my `}
         <a href="https://en.wikipedia.org/wiki/Third_Beach" target="_blank">
           favourite beach
         </a>
@@ -42,13 +49,6 @@ export default function Page() {
           target="_blank"
         >
           music
-        </a>
-        {` around `}
-        <a
-          href="https://www.destinationvancouver.com/vancouver/neighbourhoods/west-end/"
-          target="_blank"
-        >
-          Vancouver
         </a>
         {`.`}
       </p>
