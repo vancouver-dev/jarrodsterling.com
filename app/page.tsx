@@ -32,7 +32,7 @@ export default function Page() {
         {`Client highlights include TikTok, McDonalds, Pepsi & Spotify.`}
         <br />
         <br />
-        {`In my spare time you'll catch me exploring `}
+        {`In my spare time you can find me exploring `}
         <a
           href="https://www.destinationvancouver.com/vancouver/neighbourhoods/west-end/"
           target="_blank"
