@@ -1,10 +1,8 @@
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-3xl font-semibold tracking-tighter">
-        Jarrod Sterling
-      </h1>
-      <h4 className="mb-8 text-lg font-semibold tracking-tighter">
+      <h1 className="mb-8 text-3xl font-semibold">Jarrod Sterling</h1>
+      <h4 className="mb-8 text-lg font-semibold">
         {`a `}
         <a
           href="https://www.simplilearn.com/what-is-a-ui-developer-and-what-skills-are-required-article"
