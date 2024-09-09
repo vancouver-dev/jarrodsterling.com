@@ -10,7 +10,7 @@ export default function Page() {
         >
           UI
         </a>
-        {` / Front-end developer based in Vancouver, Canada.`}
+        {` / Front-end developer from Vancouver, Canada.`}
       </h4>
       <p className="mb-4">
         {`I love all things HTML, CSS & JavaScript.`} <br />
