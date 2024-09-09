@@ -27,7 +27,7 @@ export default function Page() {
         </a>
         {`.`}
         <br />
-        {`Client highlights include TikTok, McDonalds, Pepsi & Spotify.`}
+        {`Client highlights include Spotify, TikTok, McDonalds & Pepsi.`}
         <br />
         <br />
         {`In my spare time you can find me exploring `}
