@@ -150,5 +150,19 @@ table {
 }
 
 a {
-  text-decoration: underline;
+text-decoration: underline;
+transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: #2de3d3;
+  letter-spacing: 1.1px;
+}
+
+#nav a{
+  text-decoration: none;
+}
+
+#nav a:hover {
+  letter-spacing: normal;
 }

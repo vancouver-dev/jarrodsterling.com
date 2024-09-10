@@ -10,7 +10,11 @@ export default function Page() {
         >
           UI
         </a>
-        {` / Front-end developer from Vancouver, Canada.`}
+        {` / `}
+        <a href="https://linkedin.com/in/jsterlingdev" target="_blank">
+          Front-end developer
+        </a>
+        {` from Vancouver, Canada.`}
       </h4>
       <p className="mb-4">
         {`I love all things HTML, CSS & JavaScript.`} <br />

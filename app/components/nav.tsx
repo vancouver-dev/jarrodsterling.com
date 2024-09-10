@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 const navItems = {
-  "https://linkedin.com/in/jsterlingdev": {
-    name: "LinkedIn",
+  "jarrodsterling.com": {
+    name: "Home",
   },
 }
 
