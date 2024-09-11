@@ -1,7 +1,5 @@
 import './global.css'
-import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
+import type { Metadata } from "next"
 import { Navbar } from './components/nav'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
@@ -45,9 +43,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={cx(
-        "text-black bg-white dark:text-white dark:bg-black tracking-normal",
-        GeistSans.variable,
-        GeistMono.variable
+        "text-black bg-white dark:text-white dark:bg-black tracking-normal"
       )}
     >
       <body className={`mx-auto antialiased max-w-xl mt-8`}>
