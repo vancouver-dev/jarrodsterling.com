@@ -63,10 +63,7 @@ export default function Page() {
           favourite beach
         </a>
         {` or writing/recording `}
-        <a
-          href="https://www.instagram.com/j.jsterling/reel/C0sz2eKuSV_/"
-          target="_blank"
-        >
+        <a href="https://www.instagram.com/j.jsterling" target="_blank">
           music
         </a>
         {`.`}
