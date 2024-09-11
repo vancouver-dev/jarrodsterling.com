@@ -32,8 +32,6 @@ export const metadata: Metadata = {
   },
 }
 
-const cx = (...classes) => classes.filter(Boolean).join(" ")
-
 export default function RootLayout({
   children,
 }: {
@@ -42,9 +40,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cx(
-        "text-black bg-white dark:text-white dark:bg-black tracking-normal"
-      )}
+      className="text-black bg-white dark:text-white dark:bg-black tracking-normal"
     >
       <body className={`mx-auto antialiased max-w-xl mt-8`}>
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-8 md:px-0">
