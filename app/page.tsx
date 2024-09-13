@@ -64,7 +64,7 @@ export default function Page() {
         </a>
         {` or writing/recording `}
         <a href="https://www.instagram.com/j.jsterling" target="_blank">
-          music.
+          music
         </a>
         {`.`}
       </p>
