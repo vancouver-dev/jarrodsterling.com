@@ -7,29 +7,11 @@ import Footer from "./components/footer"
 
 export const metadata: Metadata = {
   title: {
+    template: "%s | Jarrod Sterling",
     default: "Jarrod Sterling",
-    template: "Next.js",
   },
-  description: "Website by Jarrod Sterling",
-  openGraph: {
-    title: "Jarrod Sterling",
-    description: "About Jarrod Sterling",
-
-    siteName: "Jarrod Sterling",
-    locale: "en_US",
-    type: "website",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
+  description: "a Front-end web developer based in Vancouver, Canada",
+  metadataBase: new URL("https://jarrodsterling.com"),
 }
 
 export default function RootLayout({
