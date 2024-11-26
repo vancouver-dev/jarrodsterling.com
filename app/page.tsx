@@ -53,7 +53,7 @@ export default function Page() {
         <br />
         {`In my spare time you can find me exploring `}
         <a
-          href="https://www.destinationvancouver.com/vancouver/neighbourhoods/west-end/"
+          href="https://en.wikipedia.org/wiki/English_Bay,_Vancouver"
           target="_blank"
         >
           Vancouver
