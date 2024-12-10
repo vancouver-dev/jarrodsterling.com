@@ -29,7 +29,7 @@ export default function Page() {
         </a>
         {` / `}
         <a href="https://linkedin.com/in/jsterlingdev" target="_blank">
-          Front-end developer
+          Front-end develop
         </a>
         {` from Vancouver, Canada.`}
       </h4>
